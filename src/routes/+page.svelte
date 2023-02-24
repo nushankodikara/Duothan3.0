@@ -32,16 +32,17 @@
         <div>
             <a href="/signUp">
                 <button class="group relative flex w-full justify-center rounded-full border border-transparent bg-cyan-600 py-2 px-4 text-sm font-medium text-white hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:cyan-cyan-500 focus:ring-offset-2 mb-4">
-                    GET STARTED
+                    SIGN UP
                 </button>
             </a>
             <span>
-                <a href="/signIn">Already a member?</a>
+                <a href="/signIn">SIGN IN</a>
             </span>
         </div>
       </div>
     </div>
   </div>
+
 
 <style>
 
