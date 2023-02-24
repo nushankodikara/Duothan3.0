@@ -12,7 +12,7 @@
 			<img class="mx-auto h-12 w-auto" src="/logo-dark.png" alt="logo" />
 			<h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">SIGN UP</h2>
 		</div>
-		<form class="mt-8 space-y-6" method="POST">
+		<form class="mt-8 space-y-6" action="/API/user/signup" method="POST">
 			<input type="hidden" name="remember" value="true" />
 			<div class="-space-y-px rounded-md shadow-sm">
 				<div>
