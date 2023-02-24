@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -10,8 +7,53 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model user {
-  id    String @id @default(auto()) @map("_id") @db.ObjectId
+model primaryUser {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  username     String   @unique
+  email        String   @unique
+  passwordhash String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  role         role     @relation(fields: [roleId], references: [id])
+  roleId       String   @db.ObjectId
+}
+
+model role {
+  id    String        @id @default(auto()) @map("_id") @db.ObjectId
   name  String
-  email String @unique
+  users primaryUser[]
+}
+
+model pharmacy {
+  id           String         @id @default(auto()) @map("_id") @db.ObjectId
+  name         String
+  address      String
+  location     String
+  phone        String
+  email        String
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  availability availability[]
+}
+
+model medicine {
+  id           String         @id @default(auto()) @map("_id") @db.ObjectId
+  name         String
+  dosage       String
+  price        Float
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  availability availability[]
+}
+
+model availability {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  pharmacy   pharmacy @relation(fields: [pharmacyId], references: [id])
+  pharmacyId String   @db.ObjectId
+  medicine   medicine @relation(fields: [medicineId], references: [id])
+  medicineId String   @db.ObjectId
+  quantity   Int
+  batch      String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 }
