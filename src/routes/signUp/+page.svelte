@@ -6,7 +6,7 @@
 <div class="flex h-screen items-center justify-center py-12 px-4 sm:px-6 lg:px-8" style="background-image: url('/sign-bg.jpg')">
     <div class="w-full max-w-md space-y-8">
       <div>
-        <img class="mx-auto h-12 w-auto" src="logo.jpg" alt="logo">
+        <img class="mx-auto h-12 w-auto" src="/logo-dark.png" alt="logo">
         <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">SIGN UP</h2>
       </div>
       <form class="mt-8 space-y-6" action="#" method="POST">

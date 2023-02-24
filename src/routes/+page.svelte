@@ -25,8 +25,8 @@
     </svg>
     <div class="absolute left-10 bottom-20 mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 pb-8">
-        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Name</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-300">slogan</p>
+        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">MedicalCare</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-300">Your trusted healthcare partner</p>
       </div>
       <div class="grid grid-cols-1 gap-y-6 gap-x-8 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
         <div>
