@@ -4,7 +4,7 @@ import { redirect } from '@sveltejs/kit';
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ cookies }) {
 	if (cookies.get('medId')) {
-		throw redirect(301, '/search/' + cookies.get('medId'));
+		throw redirect(302, '/search/' + cookies.get('medId'));
 	}
 }
 
