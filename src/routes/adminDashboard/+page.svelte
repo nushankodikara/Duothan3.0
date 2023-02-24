@@ -9,7 +9,7 @@
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <img class="h-8 w-8" src="logo.jpg" alt="Logo">
+              <img class="object-cover h-8 w-30" src="logo.png" alt="Logo">
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-4">
