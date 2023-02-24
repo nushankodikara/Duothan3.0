@@ -4,11 +4,11 @@
 </script>
 
 
-<div class="flex h-screen items-center justify-center py-12 px-4 sm:px-6 lg:px-8" >
+<div class="flex h-screen items-center justify-center py-12 px-4 sm:px-6 lg:px-8" style="background-image: url('/sign-bg.jpg')">
     <div class="w-full max-w-md space-y-8">
       <div>
-        <img class="mx-auto h-12 w-auto" src="logo.jpg" alt="Your Company">
-        <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Sign in to your account</h2>
+        <img class="mx-auto h-12 w-auto" src="logo.jpg" alt="logo">
+        <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">SIGN IN</h2>
       </div>
       <form class="mt-8 space-y-6" action="#" method="POST">
         <input type="hidden" name="remember" value="true">
@@ -41,7 +41,7 @@
                 <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
               </svg>
             </span>
-            Sign in
+            SIGN IN
           </button>
         </div>
       </form>

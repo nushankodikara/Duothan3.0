@@ -124,22 +124,22 @@
         <table class="border-collapse border border-slate-500 w-full h-full">
             <thead>
               <tr>
-                <th class="border border-slate-600 border-spacing-2">State</th>
-                <th class="border border-slate-600 border-spacing-2">City</th>
+                <th class="border border-slate-600 py-4">State</th>
+                <th class="border border-slate-600 py-4">City</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="border border-slate-700 border-spacing-2">Indiana</td>
-                <td class="border border-slate-700 border-spacing-2">Indianapolis</td>
+                <td class="border border-slate-700 py-4">Indiana</td>
+                <td class="border border-slate-700 py-4">Indianapolis</td>
               </tr>
               <tr>
-                <td class="border border-slate-700 border-spacing-2">Ohio</td>
-                <td class="border border-slate-700 border-spacing-2">Columbus</td>
+                <td class="border border-slate-700 py-4">Ohio</td>
+                <td class="border border-slate-700 py-4">Columbus</td>
               </tr>
               <tr>
-                <td class="border border-slate-700 border-spacing-2">Michigan</td>
-                <td class="border border-slate-700 border-spacing-2">Detroit</td>
+                <td class="border border-slate-700 py-4">Michigan</td>
+                <td class="border border-slate-700 py-4">Detroit</td>
               </tr>
             </tbody>
           </table>
